@@ -1,0 +1,182 @@
+body {
+    min-height: 120vh;
+    min-width: 100ch;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* From Bootstrap Libraray */
+.button {
+    width: 80ch;
+    margin: 0 auto;
+
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button:hover {
+    color: #212529;
+    text-decoration: none;
+}
+  
+.button:focus, .button.focus {
+    outline: 0;
+    /* box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); */
+}
+  
+.button.disabled, .button:disabled {
+    opacity: 0.65;
+}
+  
+.button:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+  
+a.button.disabled,fieldset:disabled a.button {
+    pointer-events: none;
+}
+
+.button-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+  
+.button-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+  
+/* .button-outline-success:focus, .button-outline-success.focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+} */
+  
+.button-outline-success.disabled, .button-outline-success:disabled {
+    color: #28a745;
+    background-color: transparent;
+}
+  
+.button-outline-success:not(:disabled):not(.disabled):active, .button-outline-success:not(:disabled):not(.disabled).active,
+  .show > .button-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+  
+.button-outline-success:not(:disabled):not(.disabled):active:focus, .button-outline-success:not(:disabled):not(.disabled).active:focus,
+  .show > .button-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+/* From bootstrap Library */
+
+.question {
+    display: none;
+}
+
+.result {
+    display: none;
+}
+
+#img {
+    margin-left: 40ch;
+
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 20%;
+    border: 2px solid rgba(48, 117, 44, 0.75);
+}
+
+.share {
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.explanation {
+    width: 80%;
+    font-size: 25px;
+    color: #717171;
+    align-self: center;
+}
+
+.sub-explanation {
+    text-align: center;
+    font-size: 15px;
+    /* FIXME: Delete */
+    display: none;
+}
+
+.fixed-ad-bottom {
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    min-width: 50ch;
+    min-height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-bottom-img {
+    /* border: 2px solid #28a745; */
+}
+
+.floating-ad-right {
+    background-color:#f9f9f9;
+    border:2px solid rgb(93, 93, 93);
+    position: fixed; 
+    right: 43%; 
+    top: 180px; 
+    margin-right: -615px;
+    text-align:center;
+    width:70px;
+    /* height: 150px; */
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+  }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+
+    font-size: 15px;
+    background-color: #1e1e1e;
+    padding: 10px;
+    color: #919191;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
